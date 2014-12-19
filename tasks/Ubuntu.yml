@@ -1,0 +1,6 @@
+---
+# tasks file for dkms (Ubuntu specific)
+
+- name: Install DKMS
+  apt: name=dkms state=present update_cache=yes
+  tags: dkms
