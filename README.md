@@ -1,5 +1,5 @@
-Role Name
-=========
+dkms
+====
 
 Installs DKMS.
 
@@ -11,17 +11,23 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+None
+
 Dependencies
 ------------
+
+CentOS:
+  - kbrebanov.epel
 
 Example Playbook
 ----------------
 
-1) Install DKMS
-
-    - hosts: all
-      roles:
-         - { role: dkms }
+Install DKMS
+```
+  - hosts: all
+    roles:
+      - { role: dkms }
+```
 
 License
 -------
