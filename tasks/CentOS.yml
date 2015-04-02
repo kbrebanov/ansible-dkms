@@ -1,6 +1,7 @@
 ---
 # tasks file for dkms (CentOS specific)
 
-- name: Install DKMS
-  yum: name=dkms state=present
+- name: Install DKMS packages
+  yum: name={{ item }} state=present
+  with_items: dkms_packages
   tags: dkms

@@ -1,2 +1,5 @@
 ---
 # vars file for dkms
+
+dkms_packages:
+  - dkms
