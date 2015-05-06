@@ -3,6 +3,8 @@ dkms
 
 Installs DKMS.
 
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.dkms-660198.svg)](https://galaxy.ansible.com/list#/roles/3291)
+
 Requirements
 ------------
 
