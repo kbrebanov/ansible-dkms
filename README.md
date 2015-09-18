@@ -1,7 +1,7 @@
 dkms
 ====
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.dkms-660198.svg)](https://galaxy.ansible.com/list#/roles/3291)
+[![Ansible Role](https://img.shields.io/ansible/role/3291.svg)](https://galaxy.ansible.com/list#/roles/3291)
 
 Installs DKMS.
 
