@@ -3,5 +3,5 @@
 
 - name: Install DKMS packages
   yum: name={{ item }} state=present
-  with_items: dkms_packages
+  with_items: "{{ dkms_packages }}"
   tags: dkms
